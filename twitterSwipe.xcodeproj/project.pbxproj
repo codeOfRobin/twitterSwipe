@@ -14,13 +14,17 @@
 		7A88F9C81971ABAA00FF49D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A88F9C71971ABAA00FF49D5 /* main.m */; };
 		7A88F9CC1971ABAA00FF49D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A88F9CB1971ABAA00FF49D5 /* AppDelegate.m */; };
 		7A88F9CF1971ABAA00FF49D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A88F9CD1971ABAA00FF49D5 /* Main.storyboard */; };
-		7A88F9D21971ABAA00FF49D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A88F9D11971ABAA00FF49D5 /* ViewController.m */; };
 		7A88F9D41971ABAA00FF49D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A88F9D31971ABAA00FF49D5 /* Images.xcassets */; };
 		7A88F9DB1971ABAB00FF49D5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A88F9DA1971ABAB00FF49D5 /* XCTest.framework */; };
 		7A88F9DC1971ABAB00FF49D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A88F9BB1971ABAA00FF49D5 /* Foundation.framework */; };
 		7A88F9DD1971ABAB00FF49D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A88F9BF1971ABAA00FF49D5 /* UIKit.framework */; };
 		7A88F9E51971ABAB00FF49D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A88F9E31971ABAB00FF49D5 /* InfoPlist.strings */; };
 		7A88F9E71971ABAB00FF49D5 /* twitterSwipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A88F9E61971ABAB00FF49D5 /* twitterSwipeTests.m */; };
+		7A88F9F11971ABC700FF49D5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7A88F9F01971ABC700FF49D5 /* Podfile */; };
+		7A88F9F41971ACD800FF49D5 /* pageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A88F9F31971ACD800FF49D5 /* pageViewController.m */; };
+		7A88F9FA1971B3DD00FF49D5 /* viewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A88F9F91971B3DD00FF49D5 /* viewController1.m */; };
+		7A88F9FD1971B40800FF49D5 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A88F9FC1971B40800FF49D5 /* ViewController2.m */; };
+		993F01C24F0E4E2F8C84F876 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C17F6C56CD649A182F79E76 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		672F2090BEC4400AB58DEC56 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		6C17F6C56CD649A182F79E76 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A88F9B81971ABAA00FF49D5 /* twitterSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twitterSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A88F9BB1971ABAA00FF49D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A88F9BD1971ABAA00FF49D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +51,19 @@
 		7A88F9CA1971ABAA00FF49D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A88F9CB1971ABAA00FF49D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7A88F9CE1971ABAA00FF49D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7A88F9D01971ABAA00FF49D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A88F9D11971ABAA00FF49D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7A88F9D31971ABAA00FF49D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7A88F9D91971ABAB00FF49D5 /* twitterSwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twitterSwipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A88F9DA1971ABAB00FF49D5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7A88F9E21971ABAB00FF49D5 /* twitterSwipeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "twitterSwipeTests-Info.plist"; sourceTree = "<group>"; };
 		7A88F9E41971ABAB00FF49D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A88F9E61971ABAB00FF49D5 /* twitterSwipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twitterSwipeTests.m; sourceTree = "<group>"; };
+		7A88F9F01971ABC700FF49D5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		7A88F9F21971ACD800FF49D5 /* pageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageViewController.h; sourceTree = "<group>"; };
+		7A88F9F31971ACD800FF49D5 /* pageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageViewController.m; sourceTree = "<group>"; };
+		7A88F9F81971B3DD00FF49D5 /* viewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewController1.h; sourceTree = "<group>"; };
+		7A88F9F91971B3DD00FF49D5 /* viewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewController1.m; sourceTree = "<group>"; };
+		7A88F9FB1971B40800FF49D5 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		7A88F9FC1971B40800FF49D5 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +74,7 @@
 				7A88F9BE1971ABAA00FF49D5 /* CoreGraphics.framework in Frameworks */,
 				7A88F9C01971ABAA00FF49D5 /* UIKit.framework in Frameworks */,
 				7A88F9BC1971ABAA00FF49D5 /* Foundation.framework in Frameworks */,
+				993F01C24F0E4E2F8C84F876 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,10 +94,12 @@
 		7A88F9AF1971ABAA00FF49D5 = {
 			isa = PBXGroup;
 			children = (
+				7A88F9F01971ABC700FF49D5 /* Podfile */,
 				7A88F9C11971ABAA00FF49D5 /* twitterSwipe */,
 				7A88F9E01971ABAB00FF49D5 /* twitterSwipeTests */,
 				7A88F9BA1971ABAA00FF49D5 /* Frameworks */,
 				7A88F9B91971ABAA00FF49D5 /* Products */,
+				672F2090BEC4400AB58DEC56 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +119,7 @@
 				7A88F9BD1971ABAA00FF49D5 /* CoreGraphics.framework */,
 				7A88F9BF1971ABAA00FF49D5 /* UIKit.framework */,
 				7A88F9DA1971ABAB00FF49D5 /* XCTest.framework */,
+				6C17F6C56CD649A182F79E76 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,9 +130,13 @@
 				7A88F9CA1971ABAA00FF49D5 /* AppDelegate.h */,
 				7A88F9CB1971ABAA00FF49D5 /* AppDelegate.m */,
 				7A88F9CD1971ABAA00FF49D5 /* Main.storyboard */,
-				7A88F9D01971ABAA00FF49D5 /* ViewController.h */,
-				7A88F9D11971ABAA00FF49D5 /* ViewController.m */,
+				7A88F9FB1971B40800FF49D5 /* ViewController2.h */,
+				7A88F9FC1971B40800FF49D5 /* ViewController2.m */,
+				7A88F9F21971ACD800FF49D5 /* pageViewController.h */,
+				7A88F9F31971ACD800FF49D5 /* pageViewController.m */,
 				7A88F9D31971ABAA00FF49D5 /* Images.xcassets */,
+				7A88F9F81971B3DD00FF49D5 /* viewController1.h */,
+				7A88F9F91971B3DD00FF49D5 /* viewController1.m */,
 				7A88F9C21971ABAA00FF49D5 /* Supporting Files */,
 			);
 			path = twitterSwipe;
@@ -159,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A88F9EA1971ABAB00FF49D5 /* Build configuration list for PBXNativeTarget "twitterSwipe" */;
 			buildPhases = (
+				DBE4B941EB0B4C63BA716130 /* Check Pods Manifest.lock */,
 				7A88F9B41971ABAA00FF49D5 /* Sources */,
 				7A88F9B51971ABAA00FF49D5 /* Frameworks */,
 				7A88F9B61971ABAA00FF49D5 /* Resources */,
+				EB415B44140A410E8AC60AD0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +251,7 @@
 			files = (
 				7A88F9D41971ABAA00FF49D5 /* Images.xcassets in Resources */,
 				7A88F9C61971ABAA00FF49D5 /* InfoPlist.strings in Resources */,
+				7A88F9F11971ABC700FF49D5 /* Podfile in Resources */,
 				7A88F9CF1971ABAA00FF49D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +266,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DBE4B941EB0B4C63BA716130 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB415B44140A410E8AC60AD0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A88F9B41971ABAA00FF49D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A88F9D21971ABAA00FF49D5 /* ViewController.m in Sources */,
+				7A88F9FA1971B3DD00FF49D5 /* viewController1.m in Sources */,
 				7A88F9CC1971ABAA00FF49D5 /* AppDelegate.m in Sources */,
+				7A88F9FD1971B40800FF49D5 /* ViewController2.m in Sources */,
 				7A88F9C81971ABAA00FF49D5 /* main.m in Sources */,
+				7A88F9F41971ACD800FF49D5 /* pageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +430,7 @@
 		};
 		7A88F9EB1971ABAB00FF49D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672F2090BEC4400AB58DEC56 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +444,7 @@
 		};
 		7A88F9EC1971ABAB00FF49D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672F2090BEC4400AB58DEC56 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +515,7 @@
 				7A88F9EC1971ABAB00FF49D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A88F9ED1971ABAB00FF49D5 /* Build configuration list for PBXNativeTarget "twitterSwipeTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +524,7 @@
 				7A88F9EF1971ABAB00FF49D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
