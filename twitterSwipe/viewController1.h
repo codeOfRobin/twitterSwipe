@@ -7,7 +7,8 @@
 //
 
 #import "MSPageViewControllerPage.h"
+#import "AsyncImageView.h"
 
-@interface viewController1 : MSPageViewControllerPage
-
+@interface viewController1 : MSPageViewControllerPage<UITableViewDataSource,UITableViewDelegate>
+@property (strong,nonatomic) NSMutableArray *imageURLs;
 @end
